@@ -1,7 +1,7 @@
 package ru.megaland
 
-object singletonObject {
-    val x = 100
+object SingletonObject {
+    const val X = 100
     var y = 0
 }
 
@@ -26,8 +26,8 @@ fun main() {
 //    val newObject2 = getCoordinates(x = 23, y = 99)
 //    println("${newObject2.x}, ${newObject2.y}")
 // ------------------------------------------------------
-    singletonObject.y = 2
-    println("x=${singletonObject.x} y=${singletonObject.y}")
+    SingletonObject.y = 2
+    println("x=${SingletonObject.X} y=${SingletonObject.y}")
 // ------------------------------------------------------
 
 
