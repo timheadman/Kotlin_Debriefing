@@ -1,4 +1,4 @@
-package org.example
+package ru.megaland
 
 fun main() {
     println("Hello World!")
